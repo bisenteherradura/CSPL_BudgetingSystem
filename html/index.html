@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSS</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <div class="navigation">
+        <button class="openLogin"">Login</button>
+    </div>
+    
+    <div class="login-content hide-login" >
+        <h1>LOGIN</h1> <button class="close-modal">&times;</button> <br><br>
+        <form action="" id="loginForm" method="get">
+            <label for="username" >Username: </label><br>
+            <input type="text" id="username" placeholder="Enter username"><br><br>
+            <label for="password" >Password: </label><br>
+            <input type="password" id="password" placeholder="Enter password"><br><br>
+            <input type="submit" id="submit" value="LOGIN"> 
+
+            <label for="error" id="error" style="Color: red; display: none;" >Error! Incorrect Information.</label>
+        </form>
+    </div>
+
+    <div class="blur-bg hide-blur"></div>
+
+
+    <script src="../javascript/index.js"></script>
+</body>
+</html>
