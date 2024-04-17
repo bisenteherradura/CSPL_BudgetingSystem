@@ -1,7 +1,7 @@
 // Press Login
 
 let loginContent = document.querySelector(".login-content");
-let openLogin = document.querySelector(".navigation");
+let openLogin = document.querySelector(".openLogin  ");
 let closeModal = document.querySelector(".close-modal");
 let blurBg = document.querySelector(".blur-bg");
 

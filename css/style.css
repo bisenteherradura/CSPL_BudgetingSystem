@@ -69,3 +69,14 @@ body{
     display: none;
 }
 
+.container{
+    background-color: aliceblue;
+    display:inline-flex;
+}
+
+.container #allowance div, .container #expenses div{
+    font-size: 20px;
+    background: #A9ACA9; 
+    display: inline-flex;
+}
+
