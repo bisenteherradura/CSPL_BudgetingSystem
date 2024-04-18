@@ -30,16 +30,14 @@
     <div class="blur-bg hide-blur"></div>
     
     <div class="container">
-        <div>
-            <h1>Allowance</h1>
-            <form action="" id="allowance">
-                <label for="monthly">Monthly Allowance: <div>₱<input type="number" placeholder="0"> </div> </label><br>
-            </form>
-            <h1>Expenses</h1>
-            <form action="" id="expenses">
-                <label for="dorm">Dorm Rent: <div>₱<input type="number" placeholder="0"> </div></label><br>
-                <label for="">Dorm Utilities: <div>₱<input type="number" placeholder="0"> </div> </label><br>
-            </form>
+        <div class="allowance-expenses-container">
+            <h2>Monthly Allowance</h2>
+            <input type="number" id="allowance" placeholder="Enter amount">
+            <button class="submit" id="expense-button">Submit</button>
+            <h2>Expenses</h2>
+            <input type="text" id="expenses" placeholder="Expense Title"> <br>
+            <input type="number" id="cost" placeholder="Expense Cost">
+            <button class="submit" id="expense-button">Submit</button>
         </div>
     </div>
 

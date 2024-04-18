@@ -1,5 +1,6 @@
+
 body{
-    background-color :cadetblue;
+    background-color : #88bdbc;
     margin: 0;
 }
 
@@ -69,14 +70,62 @@ body{
     display: none;
 }
 
-.container{
+.container {
     background-color: aliceblue;
-    display:inline-flex;
+    display: inline-flex;
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    left: 3%;
+    top: 15%;
+    border-radius: 2%;
+    box-shadow: 2px 3px 10px #254e58;
 }
 
-.container #allowance div, .container #expenses div{
-    font-size: 20px;
-    background: #A9ACA9; 
-    display: inline-flex;
+.allowance-expenses-container {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
 }
+
+.allowance-expenses-container input{
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    padding: 0.6em 0.3em;
+    border: 1px solid #d0d0d0;
+    border-radius: 0.3em;
+    font-weight: 400;
+    border: 1px solid #fafafa;
+    outline: none;
+}
+
+.allowance-expenses-container input:focus{
+    border-color: #88bdbc;
+}
+
+.allowance-expenses-container button{
+    margin-bottom: 10px;
+    background-color: #7eb2be;
+    font-size: 1em;
+    margin-top: 1em;
+    border-radius: 0.3em;
+    padding: 0.6em 1.2em;
+    color: #2f4150;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+}
+
+
+.allowance-expenses-container h2{
+    color: #293a3d;
+    font-weight: 500;
+    margin-bottom: 0.6em;
+}
+
+
+
 
